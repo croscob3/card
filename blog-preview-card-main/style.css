@@ -1,0 +1,77 @@
+@font-face {
+    font-family: italic ;
+    src: url(./assets/fonts/Figtree-Italic-VariableFont_wght.ttf);
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    margin: 0;
+    padding: 0%;
+    font-family:italic ;
+}
+
+.card {
+    width: 320px;
+    height: 425px;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 5px 5px;
+}
+
+.center {
+    display: grid;
+    place-items: center;
+    height: 100vh; 
+}
+
+img{
+    object-fit: cover;
+    width: 90%;
+    padding: 13px 15px  0px 15px;
+    border-radius: 10px;  
+}
+
+.cor_fundo{
+    background-color:hsl(47, 88%, 63%);
+    font-weight: bold;
+    margin-left: 15px;
+    display: inline-block;
+    padding: 5px; 
+    border-radius: 6px;
+}
+
+.date{
+    font-size: 13px;
+    margin-left: 15px;
+    margin-top: 0;
+    font-weight: bold;
+}
+
+.titulo{
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.titulo:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+
+.text{
+    font-size: 13px;
+    margin-left: 15px;
+    opacity: 0.6 ;
+}
+
+.perfil_img{
+    object-fit: cover;
+    width: 10% ;
+    padding: 7px;
+}
+.perfil{
+    display: flex;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 15px;
+}
